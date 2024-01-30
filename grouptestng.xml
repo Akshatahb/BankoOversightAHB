@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="1" parallel="tests" name="Suite">
+	<groups>
+		<run>
+			<include name="smoke" />
+		</run>
+	</groups>
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="BankCustomer.OpenAccountEndToEndTest"/>
+      <class name="BankCustomer.ApplyDebitCardTest"/>
+      <class name="BankCustomer.OpenAccountSmoke"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

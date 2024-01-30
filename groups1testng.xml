@@ -1,0 +1,18 @@
+
+<suite thread-count="1" parallel="tests" name="Suite">
+	
+	<groups>
+		<run>
+			<include name="Regresssion" />
+		</run>
+	</groups>
+	
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="BankCustomer.OpenAccountEndToEndTest"/>
+      <class name="BankCustomer.ApplyDebitCardTest"/>
+      <class name="BankCustomer.InternetBankingTest"/>
+      <class name="BankCustomer.OpenAccountSmoke"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

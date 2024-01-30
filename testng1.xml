@@ -1,0 +1,10 @@
+
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="BankCustomer.CreditCustomerTest"/>
+      <class name="BankCustomer.DeleteCustomer"/>
+      <class name="BankCustomer.InternetBankingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
